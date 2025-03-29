@@ -1,0 +1,1 @@
+python -m jupyter nbconvert --to pdf --PDFExporter.latex_command="['xelatex', '{filename}']" notebook_name.ipynb
